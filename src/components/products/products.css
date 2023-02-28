@@ -1,0 +1,19 @@
+.childNavBar {
+  overflow: hidden;
+  list-style-type: none;
+}
+
+.childNavBar a {
+  padding: 14px 16px;
+  float: left;
+  display: block;
+}
+
+.childNavBar :active {
+  color: blue;
+}
+
+.childNavBar :not(.active) {
+  color: black;
+
+}

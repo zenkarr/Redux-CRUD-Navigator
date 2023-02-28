@@ -1,0 +1,22 @@
+.NavBar {
+  list-style-type: none;
+  overflow: hidden;
+  background-color: #333;
+}
+
+.NavBar a {
+  float: left;
+  padding: 14px 16px;
+  display: block;
+  color: white;
+}
+
+.NavBar :active {
+    color: white;
+  }
+
+.NavBar :not(.active) {
+  background-color: gray;
+  color: white;
+
+}

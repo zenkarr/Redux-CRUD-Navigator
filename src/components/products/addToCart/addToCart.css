@@ -1,0 +1,7 @@
+.addToCart{
+    display: grid;
+    margin: 50px;
+    grid-template-columns: repeat(3, 2fr);
+    grid-auto-rows: auto;
+    content: normal;
+}

@@ -1,0 +1,77 @@
+.card {
+    display: flex;
+    width: 80%;
+    margin: 20px 20px;
+    box-shadow: 0px 0px 10px #ccc;
+  }
+  
+  .card-left-buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    margin: 10px;
+  }
+
+  .card-left-buttons .Add-to-cart{
+    background-color: #ff6600;
+    color: #fff;
+    padding: 10px;
+    width: 60%;
+    margin-right: 10px;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+  }
+
+  .card-left-buttons .buy-now{
+    background-color: #ff6600;
+    color: #fff;
+    padding: 10px;
+    width: 60%;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+  }
+
+  .card-price small {
+    font-size: 80%;
+    font-weight: 400;
+    text-decoration: line-through;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+  .card-right .card-price .card-price-discount  {
+   color: green;
+}
+
+
+
+.product-price h5 {
+    float: right;
+    font-size: 18px;
+    color: green;
+    font-weight: 600;
+}
+  .card-left {
+    width: 50%;
+  }
+  
+  .card-left img {
+    width: 100%;
+  }
+  
+  .card-right {
+    width: 50%;
+    padding: 20px;
+  }
+  
+  .card-size {
+    margin-top: 10px;
+  }
+  
+  .card-size select {
+    width: 100%;
+  }
+  
